@@ -55,3 +55,29 @@
     padding: 10px;
     text-align: center;
 }
+
+.event-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 0.75em;
+    font-weight: 700;
+    padding: 4px 10px;
+}
+
+.event-badge.negative-time-remaining {
+    background-color: red;
+    padding: 4px 10px;
+}
+
+.past-event img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.past-event h3 {
+    text-decoration: line-through;
+}
